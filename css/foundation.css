@@ -1100,7 +1100,7 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #008cba;
+  background-color: #00a7c8;
   border-color: #007095;
   color: white;
   transition: background-color 300ms ease-out; }
@@ -1287,7 +1287,7 @@ meta.foundation-mq-topbar {
       font-size: 1.0625rem;
       margin: 0; }
       .top-bar .name h1 a {
-        font-weight: normal;
+        font-weight: 900;
         color: black;
         width: 75%;
         display: block;
@@ -1358,12 +1358,12 @@ meta.foundation-mq-topbar {
   .top-bar-section ul li > a {
     display: block;
     width: 100%;
-    color: red;
+    color: #00bde0;
     padding: 12px 0 12px 0;
     padding-left: 15px;
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 0.8125rem;
-    font-weight: normal;
+    font-weight: 900;
     text-transform: none;
     background: #fff; }
     .top-bar-section ul li > a.button {
@@ -2346,7 +2346,7 @@ div.switch {
     right: 10px;
     height: 6px;
     width: 100px;
-    z-index: 10; 
+    z-index: 10;
     display: none;}
     .orbit-container .orbit-timer .orbit-progress {
       height: 3px;
@@ -2816,7 +2816,7 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #009fe1;
+  color: #00a7c8;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
@@ -5269,7 +5269,7 @@ th.hide-for-touch {
 .touch th.show-for-touch {
   display: table-cell !important; }
 
-  
+
 
 .orbit-container .orbit-slides-container img {
 display: block;
@@ -5298,17 +5298,18 @@ text-align: center;
 
 .top-bar-section ul li.active > a {
     background: #ff1e00;
-    color: red; }
+    color: #00bde0; }
     .top-bar-section ul li.active > a:hover {
       background: #ff1e00; }
 
 
       .top-bar .name h1 a {
-    font-weight: 400;
-    color: red;
+    font-weight: 900;
+    color: #000000;
     width: 100%;
     display: block;
     padding: 0 15px;
+    text-transform: uppercase;
 }
 
 .top-bar .toggle-topbar.menu-icon a::after {
@@ -5386,7 +5387,7 @@ h1, h2, h3, h4, h5, h6 {
 
     .top-bar .name h1 a {
     font-weight: 400;
-    color: red;
+    color: #00bde0;
     width: 100%;
     display: block;
     padding: 0 15px;
@@ -5433,7 +5434,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 45px;
 }
 a {
-    color: #008cba;
+    color: #00bde0;
     text-decoration: none;
     line-height: inherit;
 }
@@ -5496,12 +5497,20 @@ Inherited from body
 .top-bar-section ul li > a {
     display: block;
     width: 100%;
-    color: red;
+    color: #00bde0;
     padding: 12px 0 12px 0;
     padding-left: 15px;
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 0.8125rem;
-    font-weight: normal;
+    font-weight: 800;
     text-transform: none;
     background: #fff;
     }
+
+.top-bar .name h1 a {
+    font-weight: 900;
+    color: #00bde0;
+    width: 100%;
+    display: block;
+    padding: 0 15px;
+}
