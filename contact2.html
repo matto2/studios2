@@ -65,44 +65,26 @@
 
  -->
           <div>
-            <p>​Welcome to <strong>O'Leary Studios </strong>featuring <a href="uxstories.html">work samples</a> by Matt O'Leary. Matt is a Senior UX/UI professional currently working on enterprise file sharing and collaboration products at Axway. Matt has a varied background in design&mdash;he cofounded <em>The Juice </em>surfing magazine, established the prepress department at West Marine and has served as designer and production manager for Envision Media and McDill Associates. At FastPencil he worked in product design for the cloud publishing platform, as well as book design, and product marketing. Matt is also a lifelong artist. See more <a href="visualdesign.html">design & art here</a> and the occasional writings on UX and other subjects <a href="https://medium.com/@mattosurf/"> here</a>. Co-owner and designer of <a href="http://keeptheapostrophe.com">keeptheapostrophe.com</a></p>
-
-            <a href="uxstories.html" class="button small">Work samples</a>
-
-<p>
-</br><a href="OLeary_resume_2018.pdf"><img src="img/pdf.png" style="vertical-align:center"> Resume</a>
-|
-<a href="https://www.linkedin.com/in/olearystudios"><img src="img/linkedin.png"  width="16px"> Linkedin</a>
-|
-<a href="https://medium.com/@mattosurf/"><img src="img/medium.jpg" width="15px"></a> <a href="https://medium.com/@mattosurf/"> Medium </a>
-|
-<a href="contact2.html"><img src="img/mail.jpg" width="15px"></a><a href="contact2.html"> Contact</a>
-
-
-
-</p>
-
-
-<!--
-
-<div class="row">
-        <div class="large-12 columns">
-        <div class="large-2 columns">
-         <a href="https://www.linkedin.com/in/olearystudios">
-         <img src="img/linkedin-logo_IN-150x150.jpg" style="max-height:33px;">
-       </a>
-        </div>
-<div class="large-10 columns">
-<a href="http://www.clubofthewaves.com/surf-artist/matt-oleary.php">
-<img src="img/club-of-the-waves.png" style="max-height:33px;">
-       </a>
-</div>
-        </div>
-
-
-        </div>
-
-      -->
+            <form name="contact" method="POST" netlify>
+    <p>
+      <label>Your Name: <input type="text" name="name" /></label>
+    </p>
+    <p>
+      <label>Your Email: <input type="email" name="email" /></label>
+    </p>
+  <!--  <p>
+      <label>Your Role: <select name="role[]" multiple>
+        <option value="leader">Leader</option>
+        <option value="follower">Follower</option>
+      </select></label>
+    </p>-->
+    <p>
+      <label>Message: <textarea name="message"></textarea></label>
+    </p>
+    <p>
+      <button type="submit">Send</button>
+    </p>
+  </form>
 
           </div>
 
