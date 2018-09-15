@@ -5303,12 +5303,12 @@ text-align: center;
       background: #ff1e00; }
 
 
-      .top-bar .name h1 a {
+.top-bar .name h1 a {
     font-weight: 900;
     color: #000000;
     width: 100%;
     display: block;
-    padding: 0 15px;
+    padding: 15px 15px;
     text-transform: uppercase;
 }
 
@@ -5513,7 +5513,7 @@ Inherited from body
     color: #00bde0;
     width: 100%;
     display: block;
-    padding: 0 15px;
+    padding: 15px 15px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -5537,4 +5537,13 @@ h5 {
     padding: 0;
     color: #333;
     position: relative;
+}
+
+.top-bar .name h1 a {
+    font-weight: 900;
+    color: #00bde0;
+    width: 100%;
+    display: block;
+    padding: 15px 15px;
+    text-transform: uppercase;
 }
