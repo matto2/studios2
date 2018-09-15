@@ -1100,8 +1100,8 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #00a7c8;
-  border-color: #007095;
+  background-color: #009dbc;
+  border-color: #009dbc;
   color: white;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
@@ -5541,11 +5541,18 @@ h5 {
 
 .top-bar .name h1 a {
     font-weight: 900;
-    color: #00bde0;
+    color: #009dbc;
     width: 100%;
     display: block;
     padding: 15px 15px;
     text-transform: uppercase;
     text-decoration: none;
 
+}
+
+a {
+    color: #009dbc;
+    text-decoration: underline;
+    line-height: inherit;
+    font-weight: 500;
 }
