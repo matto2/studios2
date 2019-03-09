@@ -38,7 +38,7 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
       color: gray;
-      font-weight: 200;
+      font-weight: 400;
 }
 
 a:focus {
@@ -166,6 +166,7 @@ body {
   font-size: 14px;
   line-height: 17px;
   color: #444;
+  font-weight-400;
   background-color: #f5f4f3;
 }
 
@@ -594,13 +595,13 @@ a:hover {
 p {
   margin: 0 0 10px;
   color: #4d4d4d;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .lead {
   margin-bottom: 20px;
   font-size: 21px;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 30px;
 }
 
@@ -663,7 +664,7 @@ h4,
 h5,
 h6 {
   margin: 10px 0 8px 0;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 15px;
   color: inherit;
   text-rendering: optimizelegibility;
@@ -4104,7 +4105,7 @@ margin-top: 22px;
   padding: 10px 20px 0 32px;
   margin-left: -44px;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 400;
   color: #777777;
   text-shadow: 0 1px 0 #ffffff;
 }
@@ -4987,7 +4988,7 @@ margin-top: 22px;
 }
 
 .tooltip-inner {
-  max-width: 200px;
+  max-width: 400px;
   padding: 3px 8px;
   color: #ffffff;
   text-align: center;
@@ -5751,7 +5752,7 @@ a.badge:hover {
   padding: 60px;
   margin-bottom: 30px;
   font-size: 18px;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 22px;
   color: inherit;
   background-color: #eeeeee;
@@ -5970,7 +5971,7 @@ margin-left: 77px;
   height: 422px;
   margin-bottom: 30px;
   font-size: 22px;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 28px;
   color: inherit;
   background: url('../img/banner_self_publishing3.jpg') no-repeat;
@@ -5985,7 +5986,7 @@ margin-left: 77px;
   height: 422px;
   margin-bottom: -18px;
   font-size: 22px;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 28px;
   color: inherit;
   background: url('../img/FP-home-new-working.jpg') no-repeat;
@@ -6000,7 +6001,7 @@ margin-left: 77px;
   height: 422px;
   margin-bottom: 30px;
   font-size: 22px;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 28px;
   color: #fff;
   background: url('../img/books.jpg') no-repeat;
@@ -6015,7 +6016,7 @@ margin-left: 77px;
   max-width: 960px;	
   margin-bottom: 30px;
   font-size: 18px;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 30px;
   color: inherit;
   background-color: #eeeeee;
@@ -6182,7 +6183,7 @@ body > .navbar-fixed-top .brand {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
     margin: 4px 0 0 20px;
     padding: 0;
-    width: 200px;
+    width: 400px;
     position: fixed;
 }
 
@@ -6254,7 +6255,7 @@ span[rel="tooltip"] {
 }
 
 .page_nav {
-margin-top: 200px;
+margin-top: 400px;
 line-height: 50px;
 }
 
@@ -6275,4 +6276,9 @@ color: green;
 background-color: lightgreen;
 text-decoration: underline;
 }
-	
+
+p {
+  margin: 0 0 10px;
+  color: #4d4d4d;
+  font-weight: 400;
+}
