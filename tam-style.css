@@ -1,0 +1,17 @@
+
+body {background-color: rgb(183, 223, 221);}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 4rem;
+  }
+  img {
+    max-width: 100%;
+  }
+
+  image-orientation: 0deg;
+  .rotated {
+    transform: rotate(90deg); /* Equal to rotateZ(45deg) */
+    background-color: pink;
+  }
