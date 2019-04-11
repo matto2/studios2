@@ -79,7 +79,7 @@ button:hover {
 }
 button {
   height: 48px;
-  width: 180px;
+  width: 100%;
   text-align: center;
   color: #fff;
   font-size: 1rem;
